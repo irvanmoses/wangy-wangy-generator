@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Wangy Wangy Generator</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h2>Wangy Wangy Generator</h2>
+        </div>
+    </header>
+    
+    <main>
+        <section id="form">
+            <form action="">
+
+                <table>
+                    <label for="nama">Nama</label>
+                    <input autocomplete="off" type="text" id="nama" placeholder="cth: Keqing"></td>
+                
+                    <label for="kekurangan">Kekurangan</label>
+                    <input autocomplete="off" type="text" id="kekurangan" placeholder="cth: Tidak Nyata">
+
+                    <label for="kebenaran">Kebenaran</label></td>
+                    <input autocomplete="off" type="text" id="kebenaran" placeholder="cth: Nyata">
+
+                    <label for="keluar">Keluar</label></td>
+                    <input autocomplete="off" type="text" id="keluar" placeholder="cth: Anime">
+
+                    <label for="kesan">Kesan pas Keluar</label></td>
+                    <input autocomplete="off" type="text" id="kesan" placeholder="cth: manis">
+                  
+                    <label for="deskripsi">Deskripsi</label>
+                    <textarea name="" id="deskripsi" cols="20" rows="4" placeholder="cth: baunya rambut putih ELAINA wangi aku mau nyiumin aroma wanginya"></textarea>
+                </table>
+            </form>
+        </section>
+
+        <section class="result-section">
+            <div class="result">
+                <h2>Result</h2>
+                <textarea name="" id="text"></textarea><br>
+                <button id="generate-btn">Generate</button>
+                <button id="copy-btn" class="cd-popup-trigger">Copy</button>
+                <button id="delete-btn">Delete</button>
+
+                <div id="copy-alert"></div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="assets/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</body>
+
+</html>
