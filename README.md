@@ -1,4 +1,4 @@
 # wangy-wangy-generator
 
-#by Alice Violeh Haxor
+# by Alice Violet Haxor
 
