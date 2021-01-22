@@ -45,7 +45,7 @@ copy_btn.addEventListener('click',event => {
     document.execCommand("copy");
 
     document.querySelector('#copy-alert').innerText = 'Text Copied!';
-    document.querySelector('#copy-alert').style.cssText = "text-align:center; background-color:rgb(31, 100, 204);padding: 10px;color: white; border-radius:2px";
+    document.querySelector('#copy-alert').style.cssText = "text-align:center; background-color: #217adf; padding: 10px;color: white; border-radius:2px";
 
     setTimeout(function ()
     {
@@ -58,6 +58,14 @@ delete_btn.addEventListener('click', event => {
     text.select();
     text.setSelectionRange(0,99999);
     document.execCommand("delete");
+
+    document.querySelector('#copy-alert').innerText = 'Text Deleted!';
+    document.querySelector('#copy-alert').style.cssText = "text-align:center; background-color: #e92556; padding: 10px; color: white; border-radius:2px";
+
+    setTimeout(function ()
+    {
+        document.querySelector('#copy-alert').style.display = 'none'   
+    }, 3000)
 })
 
 

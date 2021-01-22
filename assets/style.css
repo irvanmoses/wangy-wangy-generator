@@ -159,3 +159,33 @@ label {
 		background-position: 0% 50%;
 	}
 }
+
+
+@media only screen and (max-width:660px) {
+
+    main {
+        width: 90%;
+    }
+
+    #form {
+        width: 85%;
+    }
+
+    button {
+        width: 100%;
+        margin: 20px 0 0 0;
+    }
+
+    #deskripsi {
+        height: 240px;
+    }
+
+    #text {
+        height: 300px;
+    }
+
+    .result {
+        width: 85%;
+        margin: 0 auto;
+    }
+} 
